@@ -1,0 +1,66 @@
+body {
+  background-color: aqua;
+}
+.App{
+  background-color: aquamarine;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  color: #eee;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #e77f67;
+}
+.book-list{
+  margin: 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li{
+ background-color: pink;
+ border-radius: 4px;
+ padding: 10px;
+ margin: 10px 0;
+ cursor: pointer;
+}
+.book-list li:hover{
+ opacity: 0.7;
+ text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+}
+.book-list .author{
+  color: black;
+ font-size: 0.9em;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+  color: red;
+}
+form{
+  padding: 20px;
+}
+input[type=text]{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background-color: plum;
+  color: #fff;
+  border: 0;
+}
+input[type=submit]{
+  padding: 6px 20px;
+  background-color: #eee;
+  box-sizing: border-box;
+  margin: 10px auto;
+  border-radius: 2px;
+ display: block;
+}
